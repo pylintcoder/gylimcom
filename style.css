@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    color: lightblue;
+    border: 0px solid black;
+    height: 30rem;
+    background-image: url(shoe18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+
+body {
+    height: 100vh;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.searchContain {
+    /* margin-top: 10rem; */
+    background: white;
+    box-shadow: 10px 15px 25px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+
+.searchContain::-webkit-scrollbar {
+    display: none
+}
+
+
+
+.searchItem form input {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    text-decoration: none;
+    background: lightblue;
+}
+
+.postContent {
+    width: 100%;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.post {
+    width: 100%;
+    overflow: hidden;
+}
+
+.post img {
+    max-width: 100%;
+
+}
+
+.shoe9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.shoe9 img{
+    display: flex;  
+    justify-content: center;
+    align-self: center;
+    height: 350px;
+    width: 345px;
+    margin-top: 10vh;
+}
