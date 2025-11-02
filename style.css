@@ -64,7 +64,7 @@ a{
     padding: 20px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
 
 }
 
@@ -101,3 +101,4 @@ a{
     width: 345px;
     margin-top: 10vh;
 }
+
